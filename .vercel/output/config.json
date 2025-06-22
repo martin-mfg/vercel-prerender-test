@@ -2,7 +2,7 @@
   "version": 3,
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/blog/(?<slug>[^/]*)", "dest": "/endpoint?slug=$slug" }
+    { "src": "/blog/(?<slug>[^/]*)", "dest": "/blog/post?slug=$slug" }
   ],
   "overrides": {
     "blog/one.html": {
