@@ -1,15 +1,9 @@
 {
-  "functions": {
-    "/**/*": {
-      "includeFiles": "/pin.mjs",
-      "memory": 128,
-      "maxDuration": 12
-    }
-  },
-  "redirects": [
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
     {
-      "source": "/abc",
-      "destination": "https://google.com"
+      "source": "/:match*",
+      "destination": "/endpoint"
     }
   ]
 }
