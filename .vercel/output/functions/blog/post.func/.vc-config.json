@@ -1,5 +1,5 @@
 {
   "runtime": "nodejs22.x",
-  "handler": "../../../../../pin.mjs",
+  "handler": "index.mjs",
   "launcherType": "Nodejs"
 }
