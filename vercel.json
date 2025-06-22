@@ -6,7 +6,7 @@
       "maxDuration": 12
     }
   },
-  "buildCommand": "ls -al",
+  "buildCommand": "mv .vercel/output/functions/blog/post.func/pin.mjs .vercel/output/functions/blog/post.func/pin2.mjs",
   "redirects": [
     {
       "source": "/abc",
