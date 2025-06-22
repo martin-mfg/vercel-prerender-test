@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "/**/*": {
+    "includeFiles": "/pin.mjs",
+      "memory": 128,
+      "maxDuration": 12
+    }
+  },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://google.com"
+    }
+  ]
+}
