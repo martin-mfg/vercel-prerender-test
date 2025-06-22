@@ -3,13 +3,5 @@
   "routes": [
     { "handle": "filesystem" },
     { "src": "/blog/(?<slug>[^/]*)", "dest": "/blog/endpoint?slug=$slug" }
-  ],
-  "overrides": {
-    "blog/one.html": {
-      "path": "blog/one"
-    },
-    "blog/two.html": {
-      "path": "blog/two"
-    }
-  }
+  ]
 }
