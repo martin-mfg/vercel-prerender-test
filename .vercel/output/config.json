@@ -2,6 +2,6 @@
   "version": 3,
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/blog/(?<slug>[^/]*)", "dest": "/blog/endpoint?slug=$slug" }
+    { "src": "/(?<slug>[^/]*)", "dest": "/endpoint?slug=$slug" }
   ]
 }
