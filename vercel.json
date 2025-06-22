@@ -6,6 +6,7 @@
       "maxDuration": 12
     }
   },
+  "buildCommand": "ls -al",
   "redirects": [
     {
       "source": "/abc",
