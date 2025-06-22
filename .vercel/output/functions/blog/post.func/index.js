@@ -1,4 +1,4 @@
-const {handler} = require('../../../../../pin.js')(req, res)
+import { default as handler } from '../../../../../pin.js'
 
 module.exports = (req, res) => {
   handler(req, res)
