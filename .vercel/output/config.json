@@ -1,7 +1,3 @@
 {
-  "version": 3,
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(?<slug>[^/]*)", "dest": "/endpoint?slug=$slug" }
-  ]
+  "version": 3
 }
