@@ -1,5 +1,5 @@
 import { myfunc } from './file3.mjs'
 
 export default async (req, res) => {
-    res.end(myfunc() + " | " + Object.keys(req) + " | " + JSON.stringify(req.query))
+    res.end(myfunc() + " | " + "pin" + " | " + Object.keys(req) + " | " + JSON.stringify(req.query))
 }
