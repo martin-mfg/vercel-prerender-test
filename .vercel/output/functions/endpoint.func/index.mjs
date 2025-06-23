@@ -5,10 +5,10 @@ export default async (req, res) => {
   const url = new URL(req.url, 'https://localhost')
   req.query = Object.fromEntries(url.searchParams.entries())
   switch(url.pathname) {
-    case '/gist':
+    case '/symlink':
       pin(req, res)
       break
-    case '/pin':
+    case '/endpoint':
       gist(req, res)
       break
     default:
