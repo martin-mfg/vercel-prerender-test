@@ -1,3 +1,5 @@
+import { myfunc } from './file3.mjs'
+
 export default async (req, res) => {
-    res.end("hello again again, world 2")
+    res.end(myfunc() + " | " + JSON.stringify(req))
 }
