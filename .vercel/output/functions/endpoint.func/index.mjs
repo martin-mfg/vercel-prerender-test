@@ -1,4 +1,4 @@
-import parse from 'querystring'
+import { parse } from 'querystring'
 import { default as handler } from './pin.mjs'
 
 export default async (req, res) => {
