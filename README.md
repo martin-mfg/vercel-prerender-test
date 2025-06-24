@@ -13,8 +13,8 @@ https://build-output-api-prerender-functions.vercel.sh
 In this example, the Prerender function renders blog posts from an imaginary CMS "backend service". There are a few "popular" blog posts that are prerendered at build-time and placed into the `static` directory.
 
 A Prerender function is a Serverless Function, in this case located at
-[`.vercel/output/functions/blog/page.func`](./.vercel/output/functions/blog/page.func), with an additional configuration file
-located alongside the `.func` directory, in this case [`.vercel/output/functions/blog/page.prerender-config.json`](./.vercel/output/functions/blog/page.prerender-config.json).
+[`.vercel/output/functions/blog/page.func`](dummy.vercel/output/functions/blog/page.func), with an additional configuration file
+located alongside the `.func` directory, in this case [`.vercel/output/functions/blog/page.prerender-config.json`](dummy.vercel/output/functions/blog/page.prerender-config.json).
 
 There is also a "route" in `config.json` that will direct all HTTP requests under the `/blog/*` prefix to invoke the Prerender Function.
 
