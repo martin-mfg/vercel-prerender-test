@@ -1,4 +1,4 @@
-const { parse } = require('querystring')
+import { parse } from 'querystring'
 
 // Here is our imaginary CMS "data source". In this case it's just inlined in the
 // Serverless Function code, but in a real-world scenario this function would
