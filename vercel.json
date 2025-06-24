@@ -1,4 +1,4 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "ls -al && npm run build"
+  "buildCommand": "ls -al && npm install && mkdir --parents .vercel/output/functions/post.func/ && mv ./* .vercel/output/functions/post.func/ && cp --recursive .vercel/output/functions/post.func/dummy.vercel/output/ .vercel/"
 }
