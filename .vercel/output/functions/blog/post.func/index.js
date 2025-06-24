@@ -9,7 +9,7 @@ const posts = [
   { slug: 'five', contents: 'Five 🏀🏀🏀🏀🏀' },
 ]
 
-module.exports = (req, res) => {
+export default async (req, res) => {
   const matches = parse(req.headers['x-now-route-matches'])
   const { slug } = matches
   const post = posts.find((post) => post.slug === slug)
