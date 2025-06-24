@@ -27,6 +27,5 @@ module.exports = (req, res) => {
   }
 
   body.push(`<em>This page was rendered at: ${new Date()}</em>`)
-
   res.end(body.join('<br /><br />'))
 }
