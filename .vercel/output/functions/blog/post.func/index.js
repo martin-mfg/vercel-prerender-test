@@ -1,4 +1,5 @@
 import { parse } from 'querystring'
+import axios from "axios";
 
 // Here is our imaginary CMS "data source". In this case it's just inlined in the
 // Serverless Function code, but in a real-world scenario this function would
@@ -25,6 +26,8 @@ export default async (req, res) => {
       `<strong>404:</strong> Sorry! No blog post exists with this name…`
     )
   }
+
+  console.log(axios)
 
   body.push(`<em>This page was rendered at: ${new Date()}</em>`)
   res.end(body.join('<br /><br />'))
